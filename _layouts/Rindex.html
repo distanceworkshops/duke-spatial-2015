@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>{{page.title}} &middot; distancesampling.org</title>
+
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+    <link rel="stylesheet" href="/stylesheets/homestyles.css">
+    <link rel="stylesheet" href="/stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+    <!-- mathjax config -->
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        extensions: ["tex2jax.js"],
+        jax: ["input/TeX", "output/HTML-CSS"],
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+          displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+          processEscapes: true
+        },
+        "HTML-CSS": { availableFonts: ["TeX"] }
+      });
+    </script>
+    <script type="text/javascript"
+      src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    <!-- end mathjax config -->
+    <!-- google analytics tracking -->
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47540826-1', 'distancesampling.org');
+  ga('send', 'pageview');
+
+  </script>
+ <!-- news feed code-->
+ <script src="//www.google.com/jsapi?key=AIzaSyA5m1Nc8ws2BbmPRwKu5gFradvD_hgq6G0" type="text/javascript"></script>
+    <script type="text/javascript">
+    /*
+    *  How to use the Feed Control to grab, parse and display feeds.
+    */
+    google.load("feeds", "1");
+
+    function OnLoad() {
+      // Create a feed control
+      var feedControl = new google.feeds.FeedControl();
+
+      // Add feeds.
+      feedControl.addFeed("https://github.com/DistanceDevelopment/mrds/commits/master.atom", "mrds");
+      feedControl.addFeed("https://github.com/DistanceDevelopment/Distance/commits/master.atom", "Distance");
+      /*feedControl.addFeed("https://github.com/DistanceDevelopment/dsm/commits/master.atom", "dsm");
+      feedControl.addFeed("https://github.com/DistanceDevelopment/DSsim/commits/master.atom", "DSsim");*/
+
+      // only get the last 2 commits
+      feedControl.setNumEntries(2);
+
+      // Draw it. -- will draw to a div id called "newsfeed"
+      feedControl.draw(document.getElementById("newsfeed"));
+    }
+
+    google.setOnLoadCallback(OnLoad);
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div id="nav">
+          <div align="center"><a href="http://distancesampling.org"><img src="/images/logo-big.gif" alt="Project Distance logo" width=150px></a></div>
+          <p>Information on the development of Distance and Distance-related R packages.</p>
+
+          <!--<p><a href="https://github.com/DistanceDevelopment">View Distance repositories on GitHub</a></p>-->
+          <p align="center"><a href="https://distancesampling.org/contact.html">Get in touch!</a></p>
+
+
+<!-- buttons -->
+<div align="center">
+ <ul>
+<li><a href="/Distance/index.html">Download <strong>Distance</strong> for Windows</a></li>
+<li><a href="/R/index.html">Distance <strong>R</strong> packages</a></li>
+</ul>
+</div>
+  <!-- newsfeed -->
+  <p>Recent GitHub activity</p>
+  <div id="newsfeed">Loading...</div>
+
+        </div>
+
+      </header>
+      <section>
+      <div id="content">
+{{ content }}
+      </div>
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="/javascripts/bootstrap.min.js"></script>
+    <script src="/javascripts/scale.fix.js"></script>
+    <script src="/javascripts/toc.js"></script>
+
+
+  </body>
+</html>
