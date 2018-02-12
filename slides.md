@@ -43,5 +43,5 @@ install.packages(c("Distance", "RColorBrewer", "animation", "dsm", "ggplot2",
                    "viridis", "htmltools", "caTools", "bitops", "rmarkdown",
                    "tweedie"))
 ```
-Data used in the slides is in the `spermwhale-analysis` directory of [this github repository](https://github.com/distancedevelopment/spatial-workshops). It may well be easier to download all files in the repository (use the "Download ZIP" button in the right hand side) if you wish to rebuild the slides from scratch (using RStudio).
+Data used in the slides is in the `spermwhale-analysis` directory of [this github repository](https://github.com/DistanceDevelopment/spatial-workshops/tree/97a1f6fcf01ee7177f23720ae322350bd180a6aa). It may well be easier to download all files in the repository (use the "Download ZIP" button in the right hand side) if you wish to rebuild the slides from scratch (using RStudio).
 
