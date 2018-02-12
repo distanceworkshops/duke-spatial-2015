@@ -10,27 +10,27 @@ Here you can find the slides used in the lectures. They are provided in three fo
 
 ## Classroom
 
-Lecture name                                |                                                      PDF                                                                |                      HTML               |             Rpres
---------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|---------------------------------------------------------------------------------------------------------------------------
-Welcome                                     | [PDF](https://raw.githubusercontent.com/DistanceDevelopment/spatial-workshops/master/slides/1-welcome-landscape.pdf)    | [HTML](slides/1-welcome-landscape.html) | [Rpres](https://raw.githubusercontent.com/DistanceDevelopment/spatial-workshops/master/slides/1-welcome-landscape.Rpres)
-Introduction to distance sampling           | [PDF](https://raw.githubusercontent.com/DistanceDevelopment/spatial-workshops/master/slides/2-intro-ds.pdf)             | [HTML](slides/2-intro-ds.html)          | [Rpres](https://raw.githubusercontent.com/DistanceDevelopment/spatial-workshops/master/slides/2-intro-ds.Rpres)
-Advanced distance sampling                  | [PDF](https://raw.githubusercontent.com/DistanceDevelopment/spatial-workshops/master/slides/3-adv-ds.pdf)               | [HTML](slides/3-adv-ds.html)            | [Rpres](https://raw.githubusercontent.com/DistanceDevelopment/spatial-workshops/master/slides/3-adv-ds.Rpres)
-What is a density surface model?            | [PDF](https://raw.githubusercontent.com/DistanceDevelopment/spatial-workshops/master/slides/4-what-is-a-dsm.pdf)        | [HTML](slides/4-what-is-a-dsm.html)     | [Rpres](https://raw.githubusercontent.com/DistanceDevelopment/spatial-workshops/master/slides/4-what-is-a-dsm.Rpres)
-Generalized Additive Models                 | [PDF](https://raw.githubusercontent.com/DistanceDevelopment/spatial-workshops/master/slides/5-gams.pdf)                 | [HTML](slides/5-gams.html)              | [Rpres](https://raw.githubusercontent.com/DistanceDevelopment/spatial-workshops/master/slides/5-gams.Rpres)
-Adding covariates to density surface models | [PDF](https://raw.githubusercontent.com/DistanceDevelopment/spatial-workshops/master/slides/6-covariates.pdf)           | (none)                                   | (none)
-Multivariate smoothing, model selection     | [PDF](https://raw.githubusercontent.com/DistanceDevelopment/spatial-workshops/master/slides/7-multiple-smooths.pdf)     | [HTML](slides/7-multiple-smooths.html)  | [Rpres](https://raw.githubusercontent.com/DistanceDevelopment/spatial-workshops/master/slides/7-multiple-smooths.Rpres)
-Making predictions                          | [PDF](https://raw.githubusercontent.com/DistanceDevelopment/spatial-workshops/master/slides/8-prediction.pdf)           | [HTML](slides/8-prediction.html)        | [Rpres](https://raw.githubusercontent.com/DistanceDevelopment/spatial-workshops/master/slides/8-prediction.Rpres)
-Estimating variance                         | [PDF](https://raw.githubusercontent.com/DistanceDevelopment/spatial-workshops/master/slides/9-variance.pdf)             | [HTML](slides/9-variance.html)          | [Rpres](https://raw.githubusercontent.com/DistanceDevelopment/spatial-workshops/master/slides/9-variance.Rpres)
-Practical advice                            | [PDF](https://raw.githubusercontent.com/DistanceDevelopment/spatial-workshops/master/slides/xx-practical-advice.pdf)    | [HTML](slides/xx-practical-advice.html) | [Rpres](https://raw.githubusercontent.com/DistanceDevelopment/spatial-workshops/master/slides/xx-practical-advice.Rpres)
-Advanced topics                             | [PDF](https://raw.githubusercontent.com/DistanceDevelopment/spatial-workshops/master/slides/xx-advanced-topics.pdf)     | [HTML](slides/xx-advanced-topics.html) | [Rpres](https://raw.githubusercontent.com/DistanceDevelopment/spatial-workshops/master/slides/xx-advanced-topics.Rpres)
-Extrapolating (Laura Mannocci)              | [PDF](https://raw.githubusercontent.com/DistanceDevelopment/spatial-workshops/master/slides/extrapolation-mannocci.pdf) |  (none)                                   | (none)
+Lecture name                                |     PDF                                  |                      HTML               |             Rpres
+--------------------------------------------|------------------------------------------|-----------------------------------------|-----------------------------------------------
+Welcome                                     | [PDF](slides/1-welcome-landscape.pdf)    | [HTML](slides/1-welcome-landscape.html) | [Rpres](/slides/1-welcome-landscape.Rpres)
+Introduction to distance sampling           | [PDF](slides/2-intro-ds.pdf)             | [HTML](slides/2-intro-ds.html)          | [Rpres](/slides/2-intro-ds.Rpres)
+Advanced distance sampling                  | [PDF](slides/3-adv-ds.pdf)               | [HTML](slides/3-adv-ds.html)            | [Rpres](/slides/3-adv-ds.Rpres)
+What is a density surface model?            | [PDF](slides/4-what-is-a-dsm.pdf)        | [HTML](slides/4-what-is-a-dsm.html)     | [Rpres](/slides/4-what-is-a-dsm.Rpres)
+Generalized Additive Models                 | [PDF](slides/5-gams.pdf)                 | [HTML](slides/5-gams.html)              | [Rpres](/slides/5-gams.Rpres)
+Adding covariates to density surface models | [PDF](slides/6-covariates.pdf)           | (none)                                  | (none)
+Multivariate smoothing, model selection     | [PDF](slides/7-multiple-smooths.pdf)     | [HTML](slides/7-multiple-smooths.html)  | [Rpres](/slides/7-multiple-smooths.Rpres)
+Making predictions                          | [PDF](slides/8-prediction.pdf)           | [HTML](slides/8-prediction.html)        | [Rpres](/slides/8-prediction.Rpres)
+Estimating variance                         | [PDF](slides/9-variance.pdf)             | [HTML](slides/9-variance.html)          | [Rpres](/slides/9-variance.Rpres)
+Practical advice                            | [PDF](slides/xx-practical-advice.pdf)    | [HTML](slides/xx-practical-advice.html) | [Rpres](/slides/xx-practical-advice.Rpres)
+Advanced topics                             | [PDF](slides/xx-advanced-topics.pdf)     | [HTML](slides/xx-advanced-topics.html)  | [Rpres](hslides/xx-advanced-topics.Rpres)
+Extrapolating (Laura Mannocci)              | [PDF](slides/extrapolation-mannocci.pdf) |  (none)                                 | (none)
 
 ## Lab
 
-Lecture name                             |                                                      PDF                                                             |                      HTML               |             Rpres
------------------------------------------|----------------------------------------------------------------------------------------------------------------------|-----------------------------------------|---------------------------------------------------------------------------------------------------------------------------
-Software setup                           | [PDF](https://raw.githubusercontent.com/DistanceDevelopment/spatial-workshops/master/slides/Software_Setup.pdf)      | (none)                                   | (none)
-Lab 1                                    | [PDF](https://raw.githubusercontent.com/DistanceDevelopment/spatial-workshops/master/slides/Lab_1.pdf)      | (none)                                   | (none)
+Lecture name                             |                      PDF          |   HTML       |  Rpres
+-----------------------------------------|-----------------------------------|--------------|---------
+Software setup                           | [PDF](slides/Software_Setup.pdf)  | (none)       | (none)
+Lab 1                                    | [PDF](slides/Lab_1.pdf)           | (none)       | (none)
 
 ## Building the slides yourself
 
